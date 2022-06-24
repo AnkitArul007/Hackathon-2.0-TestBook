@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head-cont">
+        <h1 class="container-fluid  p-3 text-dark" id="pageText">Drum<span><img  class="img-url" src="drum-icon.webp" alt=""></span>Kit</h1>
+        <div class="btn">
+            <div class="drum-features">
+                <button class="drum-icons w">w</button>
+                <button class="drum-icons a">a</button>
+                <button class="drum-icons s">s</button>
+                <button class="drum-icons d">d</button>
+                <button class="drum-icons j">j</button>
+                <button class="drum-icons k">k</button>
+                <button class="drum-icons l">l</button>
+            </div>
+            <div class="areaControls">
+                <div class="startAuto" >
+                    <button class="p x" id="autoplay">Start AutoPlay</button>
+                </div>
+                <div class="vol-slider">
+                    <label for="vol"><span><img src="vol-slide.png" alt="volume slider" style="padding-bottom: 12px;"></span></label>
+                    <input type= "range" id="vol" min="0" max="100">
+                </div>
+                <div class="themeChanger">
+                    <button id="themeChanger">Dark Mode</button>
+                </div>
+            </div>
+         
+            <footer class="footer" style="color: whitesmoke; position: absolute; bottom: 80px;">
+                <h3 style="color: whitesmoke;">Project By - <span style="color: whitesmoke;">&#169;</span>AnkiT Arul</h3>
+            </footer>
+        </div>
+  
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
